@@ -65,7 +65,7 @@ hr{
   margin:2%;
 }
 .eh-image{
-  width: 30%;
+  width: 18%;
   margin:2%;
 }
 .item{
@@ -124,4 +124,29 @@ hr{
   height: 85%;
   width: 40%;
 }
+}
+@media (max-width:900px) {
+  .nit-image{
+    width: 20%;
+    margin:2%;
+  }
+  .eh-image{
+    width: 30%;
+    margin:2%;
+  }
+}
+@media (max-width:600px) {
+  .logo-dis{
+    margin: 10px;
+    color: #FCFBFB;
+    display: block;
+  }
+  .nit-image{
+    width: 22%;
+    margin:2%;
+  }
+  .eh-image{
+    width: 41%;
+    margin:2%;
+  }
 }
